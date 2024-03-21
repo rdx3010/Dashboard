@@ -1,0 +1,155 @@
+/* Sidebar */
+
+.sideBtn {
+  background-color: #7700c0;
+  color: white;
+  border: 1px solid #7700c0;
+  padding: 6px 10px 6px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+}
+
+.sideLogo {
+  height: 60px;
+  padding-top: 15px;
+}
+
+.sideRegi {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.sidebarNav {
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.naviIcon {
+  /* color: #bebbbb; */
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.naviTitle {
+  /* color: #bebbbb; */
+  font-size: 15px;
+}
+
+.sideContainer {
+  height: 100%;
+  background-color: white;
+  /* width: 16%; */
+  text-align: center;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 60px;
+}
+
+.searchBar {
+  flex-grow: 1;
+  margin-right: 20px;
+  /* Adjust as needed */
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+}
+
+.notificationIcon {
+  margin-right: 20px;
+  /* Adjust as needed */
+}
+
+.profileInfo {
+  display: flex;
+}
+
+.profileInfo img {
+  width: 25px;
+  /* Adjust as needed */
+  height: 25px;
+  /* Adjust as needed */
+  border-radius: 50%;
+  margin-right: 10px;
+  /* Adjust as needed */
+}
+
+.profileInfo span {
+  font-weight: bold;
+}
+
+
+
+/* DashBoard */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.column1 {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.verticalDiv {
+  flex: 3;
+  background-color: #fff;
+  height: 380px;
+  box-shadow: 0 0.5rem 1rem rgba(#000, 0.05);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.verticalDiv1 {
+  background-color: #fff;
+  height: 380px;
+  box-shadow: 0 0.5rem 1rem rgba(#000, 0.05);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.verticalDiv2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #680eda;
+  height: 380px;
+  box-shadow: 0 0.5rem 1rem rgba(#000, 0.05);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
+
+.vertical {
+  display: flex;
+  background-color: #fff;
+}
+
+.vertical1 {
+  flex: 1;
+  background-color: #fff;
+  height: 380px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}
